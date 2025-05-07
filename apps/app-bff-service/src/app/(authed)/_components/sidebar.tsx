@@ -3,6 +3,7 @@
 import { CgProfile } from "react-icons/cg";
 import { FaFire } from "react-icons/fa";
 import { FiPlus } from "react-icons/fi";
+import { MdOutlineExplore } from "react-icons/md";
 
 import { Button } from "@imphnen/ui/button";
 
@@ -19,9 +20,18 @@ export function Sidebar() {
       </div>
 
       <nav className="pt-4">
-        <NavLink title="Feed" href="/" icon={<FaFire className="size-5" />} />
         <NavLink
-          title="Profile"
+          title="Beranda"
+          href="/"
+          icon={<MdOutlineExplore className="size-6" />}
+        />
+        <NavLink
+          title="Project"
+          href="/projects"
+          icon={<FaFire className="size-5" />}
+        />
+        <NavLink
+          title="Profil"
           href="/profile"
           icon={<CgProfile className="size-5" />}
         />
