@@ -1,7 +1,8 @@
 "use client";
 
 import { CgProfile } from "react-icons/cg";
-import { FiCodesandbox, FiPlus } from "react-icons/fi";
+import { CiLocationArrow1 } from "react-icons/ci";
+import { FiCodesandbox } from "react-icons/fi";
 import { MdOutlineExplore } from "react-icons/md";
 
 import { Button } from "@imphnen/ui/button";
@@ -14,8 +15,8 @@ export function Sidebar() {
       <div>
         <div className="flex flex-col px-2 pt-4">
           <Button size="sm" variant="reverse" className="bg-white">
-            <FiPlus className="size-5" />
-            New post
+            <CiLocationArrow1 className="size-5" />
+            Mulai Yapping
           </Button>
         </div>
 

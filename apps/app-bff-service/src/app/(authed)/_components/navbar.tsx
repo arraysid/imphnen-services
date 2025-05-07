@@ -1,7 +1,7 @@
 "use client";
 
-import { FaFire } from "react-icons/fa";
 import { FiSearch } from "react-icons/fi";
+import { ImPacman } from "react-icons/im";
 import { PiCoinsDuotone } from "react-icons/pi";
 
 export function Navbar() {
@@ -28,18 +28,18 @@ export function Navbar() {
 
 function CoinCurrency() {
   return (
-    <button className="flex items-center gap-x-1 rounded-full border bg-amber-300 px-3 py-2">
-      <PiCoinsDuotone className="size-5" />
-      <span className="text-sm font-bold">100</span>
+    <button className="flex items-center gap-x-1 rounded-full border bg-sky-300 px-3 py-2">
+      <PiCoinsDuotone className="size-6" />
+      <span className="text-sm font-semibold">100 Coin</span>
     </button>
   );
 }
 
 function StreakStats() {
   return (
-    <button className="flex items-center gap-x-1 rounded-full border bg-[#FC538D] px-3 py-2">
-      <FaFire className="size-4" />
-      <span className="text-sm font-bold">10 Post Streak</span>
+    <button className="flex items-center gap-x-1 rounded-full border bg-amber-300 px-3 py-2">
+      <ImPacman className="size-5" />
+      <span className="text-sm font-semibold">Yapping Streak</span>
     </button>
   );
 }
