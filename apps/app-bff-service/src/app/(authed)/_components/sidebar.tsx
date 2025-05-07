@@ -20,6 +20,7 @@ export function Sidebar() {
       </div>
 
       <nav className="pt-4">
+        <span className="px-3 text-xs">Menu Utama</span>
         <NavLink
           title="Beranda"
           href="/"
