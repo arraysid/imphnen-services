@@ -1,8 +1,7 @@
 "use client";
 
 import { CgProfile } from "react-icons/cg";
-import { FaFire } from "react-icons/fa";
-import { FiPlus } from "react-icons/fi";
+import { FiCodesandbox, FiPlus } from "react-icons/fi";
 import { MdOutlineExplore } from "react-icons/md";
 
 import { Button } from "@imphnen/ui/button";
@@ -29,7 +28,7 @@ export function Sidebar() {
         <NavLink
           title="Project"
           href="/projects"
-          icon={<FaFire className="size-5" />}
+          icon={<FiCodesandbox className="size-5" />}
         />
         <NavLink
           title="Profil"
